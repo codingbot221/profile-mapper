@@ -9,7 +9,7 @@ const containerStyle = {
 const MapView = ({ profile }) => {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: 'AIzaSyD6GPC0UlpFdthqEmH5spHT6Yqj9kWLtNY' // Replace with your actual API key
+    googleMapsApiKey: 'your_token_here' // Replace with your actual API key
   });
 
   return isLoaded && profile ? (
