@@ -44,7 +44,7 @@ Create a .env file in the root directory and add your Google Maps API key: <br/>
 
 REACT_APP_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here <br/>
 
-You can get your API key at [(https://console.cloud.google.com/apis/credentials)]
+You can get your API key at [https://console.cloud.google.com/apis/credentials]
 
 ## 🧪 Running the App Locally
 
