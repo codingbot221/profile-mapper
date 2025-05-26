@@ -29,57 +29,47 @@ An intuitive, responsive React web application that displays a list of user prof
 
 ## 🚀 Getting Started
 
+### 1. Clone the Repository
+
+git clone https://github.com/your-username/profile-mapper.git <br/>
+cd profile-mapper
+
+### 2. Install Dependencies
+
+npm install
+
+### 3. Add Environment Variables
+
+Create a .env file in the root directory and add your Google Maps API key: <br/>
+REACT_APP_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here <br/>
+[You can get your API key at](https://console.cloud.google.com/apis/credentials)
+
+## 🧪 Running the App Locally
+
+npm start <br/>
+Then open http://localhost:3000 in your browser.
+
+## 🛠 Admin Panel
+To manage profiles:
+
+Navigate to /admin <br/>
+
+Add, edit, or delete profiles from a clean dashboard interface <br/>
 
 
-getting_started:
-  steps:
-    - step: Clone the repository
-      commands:
-        - git clone https://github.com/your-username/profile-mapper.git
-        - cd profile-mapper
+## 🧼 Folder Structure
 
-    - step: Install dependencies
-      commands:
-        - npm install
+/public  <br/>
+/src <br/>
+  /components <br/>
+  /pages <br/>
+  /utils <br/>
+  App.js  <br/>
+  index.js  <br/>
+.env  <br/>
 
-    - step: Add environment variables
-      file: .env
-      variables:
-        REACT_APP_GOOGLE_MAPS_API_KEY: your_google_maps_api_key_here
-      notes:
-        - "Get your API key from https://console.cloud.google.com/apis/credentials"
+## 🌐 Live Demo
 
-    - step: Run the application
-      commands:
-        - npm start
-      browser_url: http://localhost:3000
+[Live Demo](https://go.glideapps.com/template/RALcUsL4eD1BXhP4Ax3M-template-published?privateTemplateToken=yOZ8Uc3350qn5p2Dle7l)
 
-admin_panel:
-  access_path: /admin
-  features:
-    - Add profiles
-    - Edit profiles
-    - Delete profiles
-  interface: "Clean dashboard interface"
-
-folder_structure:
-  root:
-    - /public
-    - /src
-      - /components
-      - /pages
-      - /utils
-      - App.js
-      - index.js
-    - .env
-
-security_notes:
-  - "Do not expose your API key in public repositories."
-  - "Use environment variables and deployment secrets on platforms like Vercel."
-
-optional_future_enhancements:
-  - Admin authentication
-  - Reverse geocoding from address input
-  - Smart suggestions based on user location
-  - Multi-language support
 
